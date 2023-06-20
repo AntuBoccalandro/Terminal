@@ -40,36 +40,37 @@ ls -l -h
 
 ## **Moverse por la terminal**
 
-change directorie, sirve para cambiar de direcotirios
+Change directorie, sirve para cambiar de directorios
 
 ```
 cd <nombre del directorio> 
 ```
 
-vuelve un directorio atrás
+Vuelve un directorio atrás
 ```
 cd ..  
 ```
-vuelve un direcotrio, pero es menos rápido que hacer cd ..
+Vuelve un direcotrio, pero es menos rápido que hacer cd ..
 ```
 cd /<nombre del directorio> 
 ```
-directorio actual
+Directorio actual
 ```
 cd . 
 ```
 Cambia de directorio según la ruta especificada.
 ```
-cd /home/carpeta1/carpeta2 
+cd <ruta>
 ```
 Vuelve al último directorio en el que estábamos, como si se tratará de cambiar de una carpeta anteriormente seleccionada.
 ```
 cd - 
 ```
-Es donde se guardan todos los archivos personales.
+Sin importar donde uno se encuentre cambiar al directorio /home.
 ```
-/home 
+cd ~ 
 ```
+
 ## **Como saber el contenido del un archivo** 
 
 Muestra un archivo
@@ -112,10 +113,9 @@ Crea una carpeta dentro de otra de una manera más sencillas, esto mediante el c
 ```
 mkdir -p <nombre de la carpeta1> 
 ```
-Copia un archivo y lo copia en una ruta especificada como segundo parámetro. Ejemplo: 
-cp /home/kali/productos/carne.txt /home/kali/productos/ncarne.txt
+Copia un archivo y lo copia en una ruta especificada como segundo parámetro.
 ```
-cp <origen> <destino> 
+cp <ruta origen> <ruta destino> 
 ```
 Copia un directorio con todos sus archivos y subdirectorios internos a la carpeta de destino
 ```
@@ -152,3 +152,7 @@ find . -iname <nombre del archivo>
 ```
 find . -type d -iname "<nombre del directorio>" 
 ```
+
+# **Trabajo con archivos**
+
+
